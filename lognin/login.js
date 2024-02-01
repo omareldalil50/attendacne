@@ -15,7 +15,7 @@ const users = [
     if (user) {
       alert('You have successfully logged in!');
 
-      window.location.href = '../Home/home.html'; 
+      window.location.href = '../Home/Home.html'; 
     } else {
       alert('login failed. Please check your username and password.');
     }
