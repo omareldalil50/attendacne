@@ -1,0 +1,28 @@
+.navbar-nav .nav-link.active::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+    /* لون الخط */
+    margin-top: 3px;
+    /* المسافة بين النص والخط */
+}
+
+/* يمكنك استبدال ".your-image-class" بالصف الذي يحتوي على الصورة في HTML */
+.your-image-class {
+    width: 220px;
+    /* تعيين العرض بقيمة 220 بكسل */
+    height: auto;
+    /* حافظ على نسبة الارتفاع الأصلية واجعل الارتفاع يتغير تلقائياً */
+    display: inline-block;
+    /* قم بعرض الصورة كعنصر مستقيم بجانب النص الآخر */
+    vertical-align: top;
+    /* قم بتحديد موضع الصورة بالجزء العلوي للنص الذي بجانبه */
+    position: relative;
+    left: 30px;
+}
+
+body{
+    background-color: #343A40;
+}
